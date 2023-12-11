@@ -1,4 +1,6 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
@@ -18,4 +20,137 @@ form {
 
 .btn-round {
   margin: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3dc4fc;
+  height: 100px;
+}
+
+.HomePage,
+.AllBeers {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.HomePage img {
+  width: 800px;
+  height: auto;
+}
+
+h2 {
+  color: black;
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+h3 {
+  color: gray;
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.HomePage p {
+  color: gray;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.home-text-container {
+  padding: 0 20px;
+}
+
+.beer-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  border-bottom: 2px solid lightgray;
+  margin: 20px 0;
+}
+
+.beer-card > .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: auto;
+}
+
+.beer-card img {
+  width: auto;
+  height: 300px;
+  padding: 0 0 35px;
+}
+
+.beer-card > div {
+  width: 400px;
+  padding: 0 20px;
+}
+
+.beer-card p {
+  color: black;
+  font-size: 18px;
+}
+
+p > span {
+  font-weight: bold;
+}
+
+.BeerDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.BeerDetails > img {
+  height: 400px;
+  width: auto;
+  margin: 20px 0;
+}
+
+.BeerDetails > p {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.BeerDetails > span {
+  color: gray;
+  font-size: 16px;
+  font-weight: bold;
+  align-self: left;
+  width: 100%;
+}
+
+.beer-details-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#attenuation-level {
+  align-self: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: lightgrey;
+}
+
+#first-brewed {
+  align-self: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
 }

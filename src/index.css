@@ -111,7 +111,7 @@ p > span {
   align-items: center;
   flex-direction: column;
   width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 
 .BeerDetails > img {
@@ -153,4 +153,40 @@ p > span {
   font-size: 16px;
   font-weight: bold;
   color: black;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+label {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 2px 5px;
+}
+
+input,
+textarea {
+  color: black;
+  font-size: 16px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+button {
+  color: white;
+  font-size: 18px;
+  background-color: #3dc4fc;
+  margin: 20px 0;
+  border: none;
+  padding: 10px 0;
+  border-radius: 20px;
+}
+
+button:hover {
+  cursor: pointer;
 }
